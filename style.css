@@ -1,0 +1,142 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0px;
+    }
+    
+    .intro {
+        /* background-image: linear-gradient(to bottom, black, rgb(44, 35, 35)); */
+        background-color: rgb(0, 0, 0);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .nav {
+        height: 15%;
+        background-image: linear-gradient(to top, black, rgb(44, 35, 35));
+    }
+    
+    .nav img {
+        margin-left: 20px;
+        margin-top: 10px;
+        height: 70%;
+        width: 70px;
+        border-radius: 100%;
+    }
+    
+    .ele {
+        position: absolute;
+        top: 25;
+        left: 3%;
+    }
+    
+    .ele a {
+        margin: 20;
+        color: white;
+    }
+    
+    .con {
+        position: absolute;
+        top: 25;
+        left: 85%;
+        background-color: blue;
+        border-radius: 50px;
+        width: 10%;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    
+    .logo {
+        position: absolute;
+        height: auto;
+        border-radius: 90%;
+        left: 30%;
+        top: 15%;
+        box-shadow: rgb(4 116 251) 0px 1px 20px 0px;
+    }
+    
+    .logo img {
+        border-radius: 50px;
+    }
+    
+    .bjNVbG {
+        position: absolute;
+        top: 85%;
+        left: 43%;
+        margin-top: 1.5rem;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    
+    .link {
+        position: relative;
+        height: 45px;
+        width: 45px;
+        margin-right: 2rem;
+        cursor: pointer;
+        --text-opacity: 1;
+        color: rgba(203, 213, 224, var(--text-opacity));
+        transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+        transition-duration: 300ms;
+    }
+    
+    .link:hover {
+        fill: aqua;
+    }
+    
+    #myVideo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+        opacity: 10%;
+        z-index: 1000;
+    }
+    
+    .exp {
+        background: white;
+        height: auto;
+        width: 100%;
+    }
+    
+    .pro {
+        background: white;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .conta {
+        position: relative;
+        background: white;
+        height: auto;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .each {
+        height: auto;
+        overflow: hidden;
+        /* background-col; */
+    }
+    
+    .each .vid {
+        position: absolute;
+        margin: 15px;
+        padding: 7px 9px;
+        border-radius: 5px;
+        width: 50%;
+        height: 45%;
+    }
+    /* footer {
+        margin-top: 5px;
+        height: 15%;
+        position: relative;
+        background-color: rgb(19, 13, 13);
+        bottom: 0%;
+    } */
