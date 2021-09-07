@@ -355,6 +355,11 @@
 
 
 <script>
+    let zoom = ((window.outerWidth - 10) / window.innerWidth) * 100;
+    console.log(zoom);
+    if (zoom < 120) {
+        document.body.style.zoom = "120%";
+    }
     const filterButtons = document.querySelector("#filter-btns").children;
     console.log(filterButtons);
     const items = document.querySelector(".filter-items-cards").children;
@@ -388,9 +393,11 @@
             }
 
 
-        })
+        });
     }
 </script>
+
+</html>
 
 </html>
 
